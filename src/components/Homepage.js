@@ -15,7 +15,7 @@ const Homepage = () => {
 
   return (
     <>
-      <Title level={2} className='heading'>
+      <Title style={{ color: '#006d75' }} level={2} className='heading'>
         Global Crypto Traffic
       </Title>
       <Row>
@@ -48,20 +48,24 @@ const Homepage = () => {
         </Col>
       </Row>
       <div className='home-heading-container'>
-        <Title level={2} className='home-title'>
-          Top 10 Cryptocurrencies in the world
+        <Title style={{ color: '#006d75' }} level={2} className='home-title'>
+          Top 10 Cryptocurrencies In The World
         </Title>
         <Title level={3} className='show-more'>
-          <Link to='/cryptocurrencies'>Show More</Link>
+          <Link style={{ color: '#006d75' }} to='/cryptocurrencies'>
+            Show More
+          </Link>
         </Title>
       </div>
       <Cryptocurrencies simplified />
       <div className='home-heading-container'>
-        <Title level={2} className='home-title'>
+        <Title style={{ color: '#006d75' }} level={2} className='home-title'>
           Latest Crypto News
         </Title>
         <Title level={3} className='show-more'>
-          <Link to='/news'>News</Link>
+          <Link style={{ color: '#006d75' }} to='/news'>
+            Show More News
+          </Link>
         </Title>
       </div>
       <News simplified />
